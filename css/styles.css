@@ -3,10 +3,57 @@ html {
 }
 #monSVG {
   position: fixed;
+  /* Définir la couleur de fond, la couleur du contour, l'épaisseur du contour du path */
 }
-/* Définir la couleur de fond, la couleur du contour, l'épaisseur du contour du path */
 #monSVG path {
   fill: white;
   stroke: black;
   stroke-width: 3;
+}
+#svg-01 {
+  position: fixed;
+  left: 220px;
+  /* Définir la couleur de fond, la couleur du contour, l'épaisseur du contour du circle */
+}
+#svg-01 circle {
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+}
+#svg-02 {
+  position: fixed;
+  left: 440px;
+  /* Définir la couleur de fond, la couleur du contour, l'épaisseur du contour du rect */
+}
+#svg-02 rect {
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+}
+#svg-03 {
+  position: fixed;
+  /* Définir la couleur de fond, la couleur du contour, l'épaisseur du contour du path */
+}
+#svg-03 path {
+  fill: #aaaaaa;
+  stroke: #550000;
+  stroke-width: 4;
+}
+#svg-04 {
+  position: fixed;
+  /* Définir la couleur de fond, la couleur du contour, l'épaisseur du contour du path */
+}
+#svg-04 path {
+  fill: #555555;
+  stroke: #aa0000;
+  stroke-width: 5;
+}
+#svg-05 {
+  position: fixed;
+  /* Définir la couleur de fond, la couleur du contour, l'épaisseur du contour du path */
+}
+#svg-05 path {
+  fill: #000000;
+  stroke: #ff0000;
+  stroke-width: 6;
 }
